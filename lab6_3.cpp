@@ -3,6 +3,20 @@ using namespace std;
 
 char before(char x){
 	//Write your function definition here
+		if(x=='A'){
+			cout<<'Z';
+		}else{
+			if(x<'A'){
+				cout<<'0';
+			}else{
+				if(x>'Z'){
+					cout<<'0';
+				}else{
+					x-=1;
+					cout<<x;
+				}
+			}
+		}
 }
 
 int main(){
